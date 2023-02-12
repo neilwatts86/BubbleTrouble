@@ -13,7 +13,7 @@ class Counter extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('Score: $counter',style: TextStyle(color: Colors.blue,fontStyle: FontStyle.normal),)
+            Text('$counter',style: TextStyle(color: Colors.blue,fontStyle: FontStyle.normal),)
           ],
         ),
       ),

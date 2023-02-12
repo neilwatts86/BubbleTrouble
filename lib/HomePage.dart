@@ -233,11 +233,6 @@ class _HomePageState extends State<HomePage> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Counter(counter: counter),
-                // MyButton(
-                //   icon: Icons.play_arrow,
-                //   function: startGame,
-                // ),
                 MyButton(
                   icon: Icons.arrow_back,
                   function: moveLeft,
@@ -250,8 +245,10 @@ class _HomePageState extends State<HomePage> {
                   icon: Icons.arrow_forward,
                   function: moveRight,
                 ),
-                ],
+                Counter(counter: counter),
+              ],
             ),
+
           ),
         ),
       ],
